@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page1</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <style>
+        .top-section-flex{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .left-top-section{
+            display: flex;
+            justify-content: space-between;
+        }
+        .left-top-section > div{
+            margin: 20px;
+        }
+        .middle-section > div{
+            text-align: center;
+        }
+        .middle-section-flex{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .bottom-section-flex{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            height: 100vh;
+            flex-wrap: wrap;
+        }
+
+        .bottom-section-flex > div{
+            background-color: lightblue;
+            padding: 30px;
+            margin-left: 20px;
+            margin-right: 20px;
+            border-radius: 10px;
+            border:1px solid green;
+            text-align: center;
+            background: url("mug.jpg");
+            height: 100px;
+            width: 80px;
+            font-weight: bold;
+            font-size: medium;
+            z-index: 2;
+        }
+
+        .bottom-section-bg{
+            background: url("image1.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            opacity: .7;
+            position: relative;
+        }
+
+
+        .btn {
+            background-color: #4CAF50;
+            border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+        .text{
+            display: flex;
+            /* background-color: cornflowerblue; */
+            height: 30px;
+            color: white;
+            font-size: medium;
+
+        }
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0,0,125,0.5);
+            z-index: 1;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div class="top-section">
+            <div class="top-section-flex">
+                <div class="left-top-section"> <!--image or reward aik div me-->
+                    <div>
+                        <img style="height: 40px; width: 40px; border-radius: 50%; " src="Ahad.png" alt="image">
+                        <p>Ahad asad</p>
+                        <p><img style="width: 20px; height: 20px;" src="PTCL Coin updated.png" alt="coin"> <span>4,230</span></p>
+                    </div>
+                    <div> <h3 style="padding-top: 20px; padding-left: 0px; font-size: x-large; margin-top: 0px;"><b>Rewards</b></h3></div>
+                </div>
+                <div style=" border: 1px;  border-radius: 38px; 
+                border:1px solid #FFBA0D;"><img style=" margin-top:10px;  width: 15px; height: 15px;" src="PTCL Coin updated.png" alt="coin">
+                <span>Balance:4,230</span></p>
+                </div>
+            </div>
+           
+        </div><!--end top-section-->
+        <div class="middle-secion" style="margin-top: 0px;">
+            <div style="text-align: center">
+                <h2 style="color: gray;">Web Sessions On Building Personal Brand</h2>
+                <img style="height: 80px; width: 80px; box-shadow: 10px 5px 6px #00000029;" src="mug.jpg" alt="image">
+                <div class="middle-section-flex">
+                    <p style="margin-right: 70px"><img style="width: 20px; height: 20px;margin-right: 3px;" src="PTCL Coin updated.png" alt="coin">
+                        <span>500</span></p>
+                    <button class="btn">Purchase</button>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-section-bg">
+            
+            <div class="text">
+                <p style="margin-left: 30px; z-index: 2;">PTCL MERCHANDISE</p>
+            </div>
+            <div class="bottom-section-flex">
+                    <div><span>web session</span></div>
+                    <div><span>web session</span></div>
+                    <div><span>web session</span></div>
+                    <div><span>web session</span></div>
+                    <div><span>web session</span></div>
+                    <div><span>web session</span></div>
+                    <div><span>web session</span></div>
+                     <div><span>web session</span></div>
+            </div>
+            <div class="overlay"></div>
+        </div>
+       
+        
+
+    </div>
+    <script src="js/bootstrap.js"></script>
+    <script src="https://kit.fontawesome.com/27b15c4a23.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
